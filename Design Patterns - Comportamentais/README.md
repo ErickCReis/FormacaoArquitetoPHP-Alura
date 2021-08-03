@@ -28,3 +28,12 @@ Ter uma base e implementar regras específicas em classes filhas
 - Criamos um template de algoritmo que estava sendo replicado em mais de uma classe e utilizamos herança para reaproveitar esse código
 - Aprendemos que a esta técnica foi dado o nome de **Template Method**
 - Vimos que é possível aplicar mais de um padrão no mesmo código
+
+### [Aula 4 - State](https://refactoring.guru/design-patterns/state.)
+Diferentes comportamentos conforme o estado
+
+#### Resumo
+- Que é possível que um objeto se comporte de formas diferentes, dependendo do seu estado
+- Que, se o resultado de uma chamada de método depende do estado, podemos delegar esta ação para uma classe específica do estado atual
+  - Esta técnica se chama padrão **State**
+- Entendemos como o Princípio de Substituição de Liskov pode acabar sendo quebrado em alguns casos na aplicação do State
