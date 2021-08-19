@@ -67,3 +67,15 @@ Estrutura que permite permite ser percorrida
 - Como acessar um objeto, como se fosse uma lista percorrível
   - Que, a esta técnica, se dá o nome de **Iterator**
 - Funcionalidades que o PHP nos fornece para implementar de forma muito simples o padrão Iterator
+
+---
+
+## Padrões Estruturais
+
+### [Aula 1 - Adapter](https://refactoring.guru/design-patterns/adapter)
+Interface que permite a alterar com facilidade a implementação de uma funcionalidade
+
+#### Resumo
+- Que padrões estruturais nos ajudam a relacionar diversas classes de forma organizada
+- Que detalhes de infraestrutura devem ser abstraídos através de interfaces
+- Como o padrão **Adapter** pode nos ajudar a trocar detalhes de infraestrutura, sem muitas dores de cabeça
