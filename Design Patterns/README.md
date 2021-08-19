@@ -1,4 +1,4 @@
-## Padrões de projeto
+## Padrões Comportamentais
 
 ### [Aula 1 - Strategy](https://refactoring.guru/design-patterns/strategy)
 Resolve o problema da existência de diversos algoritmos para uma ação, resultando na possibilidade de vários ifs
