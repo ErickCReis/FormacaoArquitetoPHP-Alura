@@ -120,3 +120,12 @@ Substitui um objeto e controla o acesso interceptando sua funções
 - A interceptar o acesso a uma propriedade, através de uma classe derivada
 - Quando isso pode ser útil, em nosso caso, para fazer cache
 - Que, a esse conceito, se dá o nome de **Proxy**
+
+### [Aula 7 - Flyweight](https://refactoring.guru/design-patterns/flyweight)
+Permite separar objetos em partes que podem ser utilizadas por outras classes, como o objetivo de reduzir o uso de memória
+
+#### Resumo
+- A otimizar o consumo de memória, ao reaproveitar objetos que possuem propriedades iguais
+- Que podemos extrair parte de uma classe, para que os seus dados possam ser compartilhados
+- Que isso pode trazer uma maior complexidade para o código
+- Que, a esse conceito de separar as partes repetidas de uma classe, dá-se o nome de **Flyweight**
