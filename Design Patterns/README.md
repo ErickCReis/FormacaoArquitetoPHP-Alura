@@ -112,3 +112,11 @@ Simplificação de um conjunto de funcionalidades mais complexas
 - Que podemos pegar um sub-sistema e expor parte de suas funcionalidades através de uma classe
 - Que a classe responsável por ser essa fachada implementa o padrão Facade
 - Que o Laravel trabalha com uma espécie de Facade em sua arquitetura
+
+### [Aula 6 - Proxy](https://refactoring.guru/design-patterns/proxy)
+Substitui um objeto e controla o acesso interceptando sua funções
+
+#### Resumo
+- A interceptar o acesso a uma propriedade, através de uma classe derivada
+- Quando isso pode ser útil, em nosso caso, para fazer cache
+- Que, a esse conceito, se dá o nome de **Proxy**
