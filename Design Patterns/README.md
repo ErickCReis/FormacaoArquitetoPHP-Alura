@@ -79,3 +79,12 @@ Interface que permite a alterar com facilidade a implementação de uma funciona
 - Que padrões estruturais nos ajudam a relacionar diversas classes de forma organizada
 - Que detalhes de infraestrutura devem ser abstraídos através de interfaces
 - Como o padrão **Adapter** pode nos ajudar a trocar detalhes de infraestrutura, sem muitas dores de cabeça
+
+### [Aula 2 - Bridge](https://refactoring.guru/design-patterns/bridge)
+Ponte entre uma abstração e uma implementação
+
+#### Resumo
+- Como manipular XML com PHP, através da classe SimpleXMLElement
+- Como criar arquivos ZIP com a classe ZipArchive
+- A abstrair mais o nosso modelo de classes
+- Como o padrão **Bridge** pode nos ajudar a organizar estruturas complexas de classes relacionadas
