@@ -104,3 +104,11 @@ Representa uma árvore de objetos
 - Por alto o que é uma representação de árvore
 - Como representar itens e orçamentos de forma semelhante
 - A percorrer a estrutura de árvores utilizando o padrão **Composite**
+
+### [Aula 5 - Facade](https://refactoring.guru/design-patterns/facade)
+Simplificação de um conjunto de funcionalidades mais complexas
+
+#### Resumo
+- Que podemos pegar um sub-sistema e expor parte de suas funcionalidades através de uma classe
+- Que a classe responsável por ser essa fachada implementa o padrão Facade
+- Que o Laravel trabalha com uma espécie de Facade em sua arquitetura
