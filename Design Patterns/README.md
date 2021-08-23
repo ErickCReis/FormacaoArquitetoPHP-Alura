@@ -96,3 +96,11 @@ Adicionar funcionalidade em tempo de execução
 - Que é possível adicionar comportamento a classes em tempo de execução
 - A aplicar esse conhecimento para combinar impostos
 - Que comportamentos adicionados em tempo de execução são possíveis, através do padrão **Decorator**
+
+### [Aula 4 - Composite](https://refactoring.guru/design-patterns/composite)
+Representa uma árvore de objetos
+
+#### Resumo
+- Por alto o que é uma representação de árvore
+- Como representar itens e orçamentos de forma semelhante
+- A percorrer a estrutura de árvores utilizando o padrão **Composite**
