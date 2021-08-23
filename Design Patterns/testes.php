@@ -8,19 +8,17 @@ use Alura\DesignPatterns\Orcamento;
 
 require "vendor/autoload.php";
 
-/*
 $calculadora = new CalculadorDeImpostos();
 
 $orcamento = new Orcamento();
 $orcamento->valor = 100;
 
-echo $calculadora->calcula($orcamento, new Iss());
-*/
+echo $calculadora->calcula($orcamento, new Iss(new Icms()));
 
-$calculadora = new CalculadoraDeDescontos();
+/*$calculadora = new CalculadoraDeDescontos();
 
 $orcamento = new Orcamento();
 $orcamento->valor = 600;
 $orcamento->quantidadeItens = 6;
 
-echo $calculadora->calculaDesconto($orcamento);
+echo $calculadora->calculaDesconto($orcamento);*/

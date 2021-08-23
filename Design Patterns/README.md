@@ -88,3 +88,11 @@ Ponte entre uma abstração e uma implementação
 - Como criar arquivos ZIP com a classe ZipArchive
 - A abstrair mais o nosso modelo de classes
 - Como o padrão **Bridge** pode nos ajudar a organizar estruturas complexas de classes relacionadas
+
+### [Aula 3 - Decorator](https://refactoring.guru/design-patterns/decorator)
+Adicionar funcionalidade em tempo de execução
+
+#### Resumo
+- Que é possível adicionar comportamento a classes em tempo de execução
+- A aplicar esse conhecimento para combinar impostos
+- Que comportamentos adicionados em tempo de execução são possíveis, através do padrão **Decorator**
