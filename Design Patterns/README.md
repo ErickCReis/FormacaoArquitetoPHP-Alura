@@ -138,3 +138,12 @@ Permite separar objetos em partes que podem ser utilizadas por outras classes, c
 - Que padrões criacionais são responsáveis por prover formas de criarmos objetos que precisam de alguma lógica
 - Sobre o padrão estrutural Flyweight e sua principal desvantagem
 - A otimizar ainda mais a implementação do Flyweight, através de um método que cria pedidos, utilizando cache
+
+### [Aula 2 - Factory Method](https://refactoring.guru/design-patterns/factory-method)
+
+- Que podemos ter estratégias diferentes de log em uma aplicação
+- Que uma classe que depende de um objeto pode delegar a responsabilidade de criação dele
+- Que essa forma de organizar a criação de um objeto, utilizando um método das classes filhas, é chamada de **Factory Method**
+- As diferenças entre o que é comumente chamado de Factory
+
+_* [Factory Comparison](https://refactoring.guru/design-patterns/factory-comparison)_
