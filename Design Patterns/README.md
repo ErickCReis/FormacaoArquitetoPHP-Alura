@@ -129,3 +129,12 @@ Permite separar objetos em partes que podem ser utilizadas por outras classes, c
 - Que podemos extrair parte de uma classe, para que os seus dados possam ser compartilhados
 - Que isso pode trazer uma maior complexidade para o código
 - Que, a esse conceito de separar as partes repetidas de uma classe, dá-se o nome de **Flyweight**
+
+---
+
+## Padrões Criacionais
+
+### Aula 1 - Criando Flyweights
+- Que padrões criacionais são responsáveis por prover formas de criarmos objetos que precisam de alguma lógica
+- Sobre o padrão estrutural Flyweight e sua principal desvantagem
+- A otimizar ainda mais a implementação do Flyweight, através de um método que cria pedidos, utilizando cache

@@ -1,8 +1,8 @@
 <?php
 
-namespace Alura\DesignPatterns;
+namespace Alura\DesignPatterns\Pedido;
 
-class DadosExtrinsecosPedidos
+class TemplatePedido
 {
     private string             $nomeCliente;
     private \DateTimeInterface $dataFinalizacao;
