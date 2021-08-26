@@ -135,6 +135,7 @@ Permite separar objetos em partes que podem ser utilizadas por outras classes, c
 ## Padrões Criacionais
 
 ### Aula 1 - Criando Flyweights
+
 - Que padrões criacionais são responsáveis por prover formas de criarmos objetos que precisam de alguma lógica
 - Sobre o padrão estrutural Flyweight e sua principal desvantagem
 - A otimizar ainda mais a implementação do Flyweight, através de um método que cria pedidos, utilizando cache
@@ -147,3 +148,9 @@ Permite separar objetos em partes que podem ser utilizadas por outras classes, c
 - As diferenças entre o que é comumente chamado de Factory
 
 _* [Factory Comparison](https://refactoring.guru/design-patterns/factory-comparison)_
+
+### [Aula 3 - Abstract Factory](https://refactoring.guru/design-patterns/abstract-factory)
+
+- Que muitas vezes temos objetos diretamente relacionados, como vendas e impostos
+- Que às vezes podem existir especializações desses objetos, e precisamos criá-los corretamente em conjunto
+- Que para criar famílias de objetos semelhantes, podemos utilizar o padrão **Abstract Factory**
