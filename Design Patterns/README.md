@@ -154,3 +154,10 @@ _* [Factory Comparison](https://refactoring.guru/design-patterns/factory-compari
 - Que muitas vezes temos objetos diretamente relacionados, como vendas e impostos
 - Que às vezes podem existir especializações desses objetos, e precisamos criá-los corretamente em conjunto
 - Que para criar famílias de objetos semelhantes, podemos utilizar o padrão **Abstract Factory**
+
+### [Aula 4 - Builder](https://refactoring.guru/design-patterns/builder)
+
+- Que, embora não seja uma boa prática, às vezes temos objetos com muitas propriedades e possíveis variações
+- Que a criação de objetos assim tende a ser de difícil leitura devida a grande quantidade de propriedades
+- Que o padrão **Builder** pode ser utilizado para criar esses objetos de forma mais simples
+- Que uma [Fluent Interface](https://martinfowler.com/bliki/FluentInterface.html) nos permite encadear chamadas de métodos
