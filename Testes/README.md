@@ -28,3 +28,12 @@
 
 
 - _[Assertions](https://phpunit.readthedocs.io/pt_BR/9.5/assertions.html)_
+
+### Aula 3 - Classes de equivalência
+
+- Sobre classes de equivalência do mundo de testes, que descrevem similaridades entre os cenários de testes
+  - Isto é importante para descobrir quantos testes devemos criar
+  - A ideia é criar nenhum teste a mais ou a menos
+  - Um teste também é um código que precisa ser mantido
+- Para ordenar uma lista, você pode usar a função `usort`
+- Para fatiar uma lista, você pode usar a função `array_slice`

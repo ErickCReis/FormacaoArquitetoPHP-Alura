@@ -2,12 +2,17 @@
 
 namespace Alura\Leilao\Services;
 
+use Alura\Leilao\Model\Lance;
 use Alura\Leilao\Model\Leilao;
 
 class Avaliador
 {
     private float $maiorValor = -INF;
     private float $menorValor = INF;
+
+    /** @var Lance[] */
+    private array $maioresLances;
+
 
     public function avalia(Leilao $leilao): void
     {
@@ -20,6 +25,14 @@ class Avaliador
                 $this->menorValor = $lance->getValor();
             }
         }
+
+        $lances = $leilao->getLances();
+        usort(
+            $lances,
+            fn(Lance $lance1, Lance $lance2) => $lance2->getValor() - $lance1->getValor()
+        );
+
+        $this->maioresLances = array_slice($lances, 0, 3);
     }
 
     public function getMaiorValor(): float
@@ -31,6 +44,16 @@ class Avaliador
     {
         return $this->menorValor;
     }
+
+    /**
+     * @return Lance[]
+     */
+    public function getMaioresLances(): array
+    {
+        return $this->maioresLances;
+    }
+
+
 
 
 
