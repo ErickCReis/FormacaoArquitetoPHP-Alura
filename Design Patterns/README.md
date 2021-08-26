@@ -167,3 +167,9 @@ _* [Factory Comparison](https://refactoring.guru/design-patterns/factory-compari
 - Que uma estratégia inteligente para criar objetos parecidos é clonar um objeto já existente
 - Como implementar esse clone e vimos que esse é o padrão **Prototype**
 - Como o PHP nos fornece uma maneira nativa de implementar esse padrão: _[Object Cloning](https://www.php.net/manual/en/language.oop5.cloning.php)_
+
+### [Aula 6 - Singleton](https://refactoring.guru/design-patterns/singleton)
+
+- Que é possível gerenciar a criação de objetos para controlar o número de instâncias de determinada classe
+- Que, se quisermos que apenas uma instância de determinada classe exista, podemos implementar o padrão **Singleton**
+- Que nem sempre esse padrão é necessário, visto que o PHP "dura" apenas um request
