@@ -161,3 +161,9 @@ _* [Factory Comparison](https://refactoring.guru/design-patterns/factory-compari
 - Que a criação de objetos assim tende a ser de difícil leitura devida a grande quantidade de propriedades
 - Que o padrão **Builder** pode ser utilizado para criar esses objetos de forma mais simples
 - Que uma [Fluent Interface](https://martinfowler.com/bliki/FluentInterface.html) nos permite encadear chamadas de métodos
+
+### [Aula 5 - Prototype](https://refactoring.guru/design-patterns/prototype)
+
+- Que uma estratégia inteligente para criar objetos parecidos é clonar um objeto já existente
+- Como implementar esse clone e vimos que esse é o padrão **Prototype**
+- Como o PHP nos fornece uma maneira nativa de implementar esse padrão: _[Object Cloning](https://www.php.net/manual/en/language.oop5.cloning.php)_
