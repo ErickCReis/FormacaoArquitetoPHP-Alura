@@ -52,9 +52,4 @@ class Avaliador
     {
         return $this->maioresLances;
     }
-
-
-
-
-
 }
