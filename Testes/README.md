@@ -61,4 +61,16 @@
   - Ele também documenta e simplifica classe
 - Que devemos implementar a funcionalidade em pequenos passos, chamados de _baby steps_, sempre guiados pelos testes
 
+
 - _[TDD](https://tdd.caelum.com.br/)_
+
+### Aula 6 - Testando Exceções
+
+- Como verificar que o código lança as exceções esperadas
+  - Em geral, exceções também fazem parte das regras de negócio e precisam ser verificadas
+  - Para tal o PHPUnit oferece os métodos `expectException` e `expectExceptionMessage` da classe TestCase:
+    - `expectException(\NomeDaExcecao::class)`
+    - `expectExceptionMessage(mensagemDeExcecao)`
+
+
+- _[Testando Exceções](https://phpunit.readthedocs.io/pt_BR/latest/writing-tests-for-phpunit.html#testando-excecoes)_
