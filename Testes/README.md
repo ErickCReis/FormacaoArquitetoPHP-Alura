@@ -14,7 +14,6 @@
 - _Padrão [Arrange-Act-Assert](http://wiki.c2.com/?ArrangeActAssert)_
 - _Padrão [Given-When-Then](https://martinfowler.com/bliki/GivenWhenThen.html)_
 
-
 ### Aula 2 - Conhecendo o [PHPUnit](https://phpunit.de/)
 
 - O **PHPUnit** é uma ferramenta para executar testes de maneira automatizada
@@ -50,3 +49,16 @@
 - _[Data Providers](https://phpunit.readthedocs.io/pt_BR/latest/writing-tests-for-phpunit.html#provedores-de-dados)_
 - _[Ambientes](https://phpunit.readthedocs.io/pt_BR/latest/fixtures.html)_
 - _[O Arquivo de Configuração XML](https://phpunit.readthedocs.io/pt_BR/latest/configuration.html)_
+
+### Aula 5 - Test Driven Development
+
+- Sobre TDD, o _Test Driven Development_
+- Que o TDD define um ciclo de desenvolvimento guiado pelo teste:
+  - Escrevemos um teste, que ainda não vai passar
+  - Implementamos a funcionalidade, que faz o teste passar
+  - Refatoramos (melhoramos, simplificamos) o código
+- Que o TDD ajuda que tenhamos um teste para cada funcionalidade
+  - Ele também documenta e simplifica classe
+- Que devemos implementar a funcionalidade em pequenos passos, chamados de _baby steps_, sempre guiados pelos testes
+
+- _[TDD](https://tdd.caelum.com.br/)_
