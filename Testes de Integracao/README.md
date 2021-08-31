@@ -25,3 +25,8 @@
 
 - Como utilizar data providers
 - O conceito de testes (ou asserts) intermediários
+
+### Aula 4 - Testando a alteração
+
+- Como realizar os famigerados asserts intermediários
+- Como separar suítes de testes, utilizando o `phpunit.xml`
