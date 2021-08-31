@@ -9,3 +9,13 @@
     - API externa
     - Requisições HTTP para o próprio sistema
 - Como realizar testes que interagem com o banco de dados
+
+### Aula 2 - Garantindo a integridade
+
+- Que não devemos utilizar o banco de dados de produção para realizar testes
+- Que nossos testes devem ser independentes
+- Que transações são nossas amigas ao testar o banco de dados. Devemos realizar todas as operações SQL de um teste dentro de uma transação
+- Que o SQLite fornece um banco de dados em memória que pode auxiliar (e muito) na performance da suíte de testes
+
+
+- _[Transações SQL](http://luizricardo.org/2014/02/o-que-sao-e-como-funcionam-transacoes-em-sql/)_
