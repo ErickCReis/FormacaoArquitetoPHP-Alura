@@ -24,16 +24,20 @@ class LeilaoDaoTest extends TestCase
 
     protected function setUp(): void
     {
-
         self::$pdo->beginTransaction();
     }
 
-    public function testInsercaoEBuscaDevemFuncionar()
+    /**
+     * @param Leilao[] $leiloes
+     * @dataProvider leiloes
+     */
+    public function testBuscaLeiloesNaoFinalizados(array $leiloes)
     {
         // arrange
-        $leilao    = new Leilao('Variante 0km');
         $leilaoDao = new LeilaoDao(self::$pdo);
-        $leilaoDao->salva($leilao);
+        foreach ($leiloes as $leilao) {
+            $leilaoDao->salva($leilao);
+        }
 
         // act
         $leiloes = $leilaoDao->recuperarNaoFinalizados();
@@ -42,10 +46,43 @@ class LeilaoDaoTest extends TestCase
         self::assertCount(1, $leiloes);
         self::assertContainsOnlyInstancesOf(Leilao::class, $leiloes);
         self::assertSame('Variante 0km', $leiloes[0]->recuperarDescricao());
+        self::assertFalse($leiloes[0]->estaFinalizado());
+    }
+
+    /**
+     * @param Leilao[] $leiloes
+     * @dataProvider leiloes
+     */
+    public function testBuscaLeiloesFinalizados(array $leiloes)
+    {
+        // arrange
+        $leilaoDao = new LeilaoDao(self::$pdo);
+        foreach ($leiloes as $leilao) {
+            $leilaoDao->salva($leilao);
+        }
+
+        // act
+        $leiloes = $leilaoDao->recuperarFinalizados();
+
+        // assert
+        self::assertCount(1, $leiloes);
+        self::assertContainsOnlyInstancesOf(Leilao::class, $leiloes);
+        self::assertSame('Fiat 147 0km', $leiloes[0]->recuperarDescricao());
+        self::assertTrue($leiloes[0]->estaFinalizado());
     }
 
     protected function tearDown(): void
     {
         self::$pdo->rollBack();
+    }
+
+    public function leiloes(): array
+    {
+        $naoFinalizado = new Leilao('Variante 0km');
+        $finalizado    = new Leilao('Fiat 147 0km');
+        $finalizado->finaliza();
+        return [
+            'leiloes' => [[$naoFinalizado, $finalizado]]
+        ];
     }
 }

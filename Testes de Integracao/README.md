@@ -19,3 +19,9 @@
 
 
 - _[Transações SQL](http://luizricardo.org/2014/02/o-que-sao-e-como-funcionam-transacoes-em-sql/)_
+
+
+### Aula 3 - Testes intermediários
+
+- Como utilizar data providers
+- O conceito de testes (ou asserts) intermediários
