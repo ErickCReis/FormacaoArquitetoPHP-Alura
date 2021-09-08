@@ -16,3 +16,12 @@
 - Sobre o relacionamento entre entidades e Value Objects
 - O conceito de fábrica no mundo do estudo de design de código
 - Sobre named constructors e suas vantagens na legibilidade
+
+
+### Aula 3: Camadas
+
+- Que podemos utilizar namespaces do PHP para separar a nossa aplicação em módulos que façam sentido
+- Alguns padrões arquiteturais
+- A aplicar conceitos de padrões arquiteturais ao separar nossa aplicação em camadas. Começamos pelo domínio
+
+- _[Screaming Architecture](https://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html)_

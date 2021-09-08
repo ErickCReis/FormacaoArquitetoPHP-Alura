@@ -1,12 +1,12 @@
 <?php
 
-namespace Alura\Arquitetura\Testes;
+namespace Alura\Arquitetura\Testes\Aluno;
 
-use Alura\Arquitetura\Telefone;
+use Alura\Arquitetura\Dominio\Aluno\Telefone;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Alura\Arquitetura\Telefone
+ * @covers \Alura\Arquitetura\Dominio\Aluno\Telefone
  */
 class TelefoneTest extends TestCase
 {
