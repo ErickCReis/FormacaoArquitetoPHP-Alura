@@ -10,6 +10,7 @@ class Aluno
     private Cpf    $cpf;
     private string $nome;
     private Email  $email;
+    private string $senha;
 
     /** @var Telefone[] */
     private array $telefones;

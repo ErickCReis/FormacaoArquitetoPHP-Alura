@@ -31,3 +31,11 @@
 - O conceito de repositórios, já visto no treinamento de **PDO**
 - A motivação para separar os repositórios em mais de uma camada
 - Que é possível criar implementações que sejam mais fáceis de utilizar em nossos testes
+
+### Aula 5: Services
+
+- O conceito de Services
+- Que há _Domain_, _Application_ e _Infrastructure Services_
+  - _Domain Services_ são classes que representam uma ação entre mais de uma entidade
+  - _Application Services_ controlam o fluxo de alguma regra em nossa aplicação
+  - _Infrastructure Services_ são implementações de interfaces presentes nas camadas de domínio ou de aplicação
