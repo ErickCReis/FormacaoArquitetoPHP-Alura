@@ -11,9 +11,7 @@ class Aluno
     private string $nome;
     private Email  $email;
 
-    /**
-     * @var Telefone[]
-     */
+    /** @var Telefone[] */
     private array $telefones;
 
     public static function comCpfNomeEEmail(string $cpf, string $nome, string $email): self
@@ -32,5 +30,26 @@ class Aluno
     {
         $this->telefones[] = Telefone::comDddENumero($ddd, $numero);
         return $this;
+    }
+
+    public function cpf(): string
+    {
+        return $this->cpf;
+    }
+
+    public function nome(): string
+    {
+        return $this->nome;
+    }
+
+    public function email(): string
+    {
+        return $this->email;
+    }
+
+    /** @return Telefone[] */
+    public function telefones(): array
+    {
+        return $this->telefones;
     }
 }

@@ -25,3 +25,9 @@
 - A aplicar conceitos de padrões arquiteturais ao separar nossa aplicação em camadas. Começamos pelo domínio
 
 - _[Screaming Architecture](https://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html)_
+
+### Aula 4: Repositórios
+
+- O conceito de repositórios, já visto no treinamento de **PDO**
+- A motivação para separar os repositórios em mais de uma camada
+- Que é possível criar implementações que sejam mais fáceis de utilizar em nossos testes
