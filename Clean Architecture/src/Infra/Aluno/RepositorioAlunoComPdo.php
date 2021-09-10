@@ -5,6 +5,7 @@ namespace Alura\Arquitetura\Infra\Aluno;
 use Alura\Arquitetura\Dominio\Aluno\Aluno;
 use Alura\Arquitetura\Dominio\Aluno\AlunoNaoEncontrado;
 use Alura\Arquitetura\Dominio\Aluno\RepositorioAluno;
+use Alura\Arquitetura\Dominio\Aluno\Telefone;
 use Alura\Arquitetura\Dominio\Cpf;
 
 class RepositorioAlunoComPdo implements RepositorioAluno
@@ -109,4 +110,8 @@ class RepositorioAlunoComPdo implements RepositorioAluno
     }
 
 
+    public function adicionarTelefone(string $cpf, string $ddd, string $numero): void
+    {
+        // TODO: Implement adicionarTelefone() method.
+    }
 }

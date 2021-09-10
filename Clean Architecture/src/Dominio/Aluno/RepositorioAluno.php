@@ -8,6 +8,8 @@ interface RepositorioAluno
 {
     public function adicionar(Aluno $aluno): void;
 
+    public function adicionarTelefone(string $cpf, string $ddd, string $numero): void;
+
     public function buscarPorCpf(Cpf $cpf): Aluno;
 
     /** @return Aluno[] */

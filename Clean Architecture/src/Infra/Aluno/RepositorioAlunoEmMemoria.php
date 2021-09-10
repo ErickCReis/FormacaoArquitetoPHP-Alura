@@ -41,5 +41,14 @@ class RepositorioAlunoEmMemoria implements RepositorioAluno
         return $this->alunos;
     }
 
+    public function adicionarTelefone(string $cpf, string $ddd, string $numero): void
+    {
+        $alunoEncontrado = $this->buscarPorCpf(new Cpf($cpf));
 
+        foreach ($this->alunos as $aluno) {
+            if ($aluno == $alunoEncontrado) {
+                $aluno->adicionarTelefone($ddd, $numero);
+            }
+        }
+    }
 }

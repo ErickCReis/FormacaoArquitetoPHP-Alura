@@ -19,12 +19,13 @@ class Aluno
     {
         return new Aluno(new Cpf($cpf), $nome, new Email($email));
     }
-    
+
     public function __construct(Cpf $cpf, string $nome, Email $email)
     {
-        $this->cpf   = $cpf;
-        $this->nome  = $nome;
-        $this->email = $email;
+        $this->cpf       = $cpf;
+        $this->nome      = $nome;
+        $this->email     = $email;
+        $this->telefones = [];
     }
 
     public function adicionarTelefone(string $ddd, string $numero): self

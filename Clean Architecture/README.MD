@@ -26,11 +26,13 @@
 
 - _[Screaming Architecture](https://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html)_
 
+
 ### Aula 4: Repositórios
 
 - O conceito de repositórios, já visto no treinamento de **PDO**
 - A motivação para separar os repositórios em mais de uma camada
 - Que é possível criar implementações que sejam mais fáceis de utilizar em nossos testes
+
 
 ### Aula 5: Services
 
@@ -39,3 +41,10 @@
   - _Domain Services_ são classes que representam uma ação entre mais de uma entidade
   - _Application Services_ controlam o fluxo de alguma regra em nossa aplicação
   - _Infrastructure Services_ são implementações de interfaces presentes nas camadas de domínio ou de aplicação
+  
+
+### Aula 6: Interface com usuário
+
+- Como fornecer acesso à nossa aplicação, através de Use Cases
+- Na prática, que web, persistência e frameworks podem ser meras ferramentas
+- Na prática, as vantagens de modelar uma aplicação, partindo do seu domínio
