@@ -21,3 +21,14 @@ Vale ressaltar que o termo _Domain Driven Design_ significa literalmente modelar
 - Entendemos o que é DDD;
 - Vimos que diversos conceitos de DDD já foram aprendidos no curso de Arquitetura;
 - Conhecemos o termo Linguagem Ubíqua que consiste em ter uma linguagem onipresente entre a equipe de desenvolvimento e a equipe de negócios.
+
+### Aula 2: Aggregates
+
+- Conhecemos o conceito de **Aggregates**;
+- Entendemos o que é uma invariante;
+- Vimos que persistência de Aggregates é um assunto complexo;
+  - Há detalhes de consistência;
+  - Optimist e Pessimist locking são conceitos mais avançados sobre o assunto;
+
+
+- _[Aggregate](https://martinfowler.com/bliki/DDD_Aggregate.html)_

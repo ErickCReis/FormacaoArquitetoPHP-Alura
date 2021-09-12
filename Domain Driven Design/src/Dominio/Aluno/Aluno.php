@@ -30,7 +30,13 @@ class Aluno
 
     public function adicionarTelefone(string $ddd, string $numero): self
     {
-        $this->telefones[] = Telefone::comDddENumero($ddd, $numero);
+        $telefone = Telefone::comDddENumero($ddd, $numero);
+
+        if (count($this->telefones) === 2) {
+            throw new AlunoJaTem2Telefones($telefone);
+        }
+
+        $this->telefones[] = $telefone;
         return $this;
     }
 
