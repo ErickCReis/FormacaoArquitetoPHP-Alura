@@ -15,3 +15,9 @@ Todos esses padrões são descritos no estudo sobre DDD e com isso já temos um 
 Vale ressaltar que o termo _Domain Driven Design_ significa literalmente modelar nosso software nos orientando pelo domínio do negócio.
 
 
+### Aula 1: Linguagem ubíqua
+
+- Aprendemos que os estudos de arquitetura e DDD geralmente se complementam;
+- Entendemos o que é DDD;
+- Vimos que diversos conceitos de DDD já foram aprendidos no curso de Arquitetura;
+- Conhecemos o termo Linguagem Ubíqua que consiste em ter uma linguagem onipresente entre a equipe de desenvolvimento e a equipe de negócios.
