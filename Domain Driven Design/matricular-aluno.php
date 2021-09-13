@@ -1,10 +1,10 @@
 <?php
 
-use Alura\Arquitetura\Aplicacao\Aluno\MatricularAluno\MatricularAluno;
-use Alura\Arquitetura\Aplicacao\Aluno\MatricularAluno\MatricularAlunoDto;
-use Alura\Arquitetura\Dominio\Aluno\LogAlunoMatriculado;
-use Alura\Arquitetura\Dominio\PublicadorDeEvento;
-use Alura\Arquitetura\Infra\Aluno\RepositorioAlunoEmMemoria;
+use Alura\Arquitetura\Academico\Aplicacao\Aluno\MatricularAluno\MatricularAluno;
+use Alura\Arquitetura\Academico\Aplicacao\Aluno\MatricularAluno\MatricularAlunoDto;
+use Alura\Arquitetura\Academico\Dominio\Aluno\LogAlunoMatriculado;
+use Alura\Arquitetura\Academico\Dominio\PublicadorDeEvento;
+use Alura\Arquitetura\Academico\Infra\Aluno\RepositorioAlunoEmMemoria;
 
 require 'vendor/autoload.php';
 

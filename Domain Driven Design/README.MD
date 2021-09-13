@@ -40,3 +40,13 @@ Vale ressaltar que o termo _Domain Driven Design_ significa literalmente modelar
 - Definimos o que é um evento;
 - Entendemos o que é um evento de domínio;
 - Aprendemos a implementar, emitir e reagir a um evento de domínio;
+
+
+### Aula 4: Contextos delimitados
+
+- Conhecemos o conceito de _Bounded Contexts_ ou Contextos Delimitados;
+- Vimos que a separação em contextos nos dá mais flexibilidade porém aumenta (e muito) a complexidade;
+- Conhecemos o desenho conhecido como Mapa de Contexto;
+
+
+- _[Bounded Contexts](https://martinfowler.com/bliki/BoundedContext.html)_
