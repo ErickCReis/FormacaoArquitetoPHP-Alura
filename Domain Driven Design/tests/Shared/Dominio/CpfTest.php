@@ -1,12 +1,12 @@
 <?php
 
-namespace Alura\Arquitetura\Testes\Academico\Dominio;
+namespace Alura\Arquitetura\Testes\Shared\Dominio;
 
-use Alura\Arquitetura\Academico\Dominio\Cpf;
+use Alura\Arquitetura\Shared\Dominio\Cpf;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Alura\Arquitetura\Academico\Dominio\Cpf
+ * @covers \Alura\Arquitetura\Shared\Dominio\Cpf
  */
 class CpfTest extends TestCase
 {

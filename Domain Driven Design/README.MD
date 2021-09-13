@@ -50,3 +50,14 @@ Vale ressaltar que o termo _Domain Driven Design_ significa literalmente modelar
 
 
 - _[Bounded Contexts](https://martinfowler.com/bliki/BoundedContext.html)_
+
+
+### Aula 5: Contexto compartilhado
+
+- Entendemos que os contextos devem ser independentes, mas precisam se comunicar de alguma forma;
+- Conhecemos o conceito de Shared Kernel, e vimos que há vantagens e desvantagens;
+- Utilizamos eventos de domínio para realizar parte da comunicação entre contextos;
+- Vimos que cada contexto pode fornecer seus Use Cases de forma independente.
+
+
+- _[Shared Kernel](http://www.fabriciorissetto.com/blog/ddd-bounded-context/)_

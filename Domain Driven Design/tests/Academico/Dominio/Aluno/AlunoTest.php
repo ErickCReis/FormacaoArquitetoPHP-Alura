@@ -4,7 +4,7 @@ namespace Alura\Arquitetura\Testes\Academico\Dominio\Aluno;
 
 use Alura\Arquitetura\Academico\Dominio\Aluno\Aluno;
 use Alura\Arquitetura\Academico\Dominio\Aluno\AlunoJaTem2Telefones;
-use Alura\Arquitetura\Academico\Dominio\Cpf;
+use Alura\Arquitetura\Shared\Dominio\Cpf;
 use Alura\Arquitetura\Academico\Dominio\Email;
 use PHPUnit\Framework\TestCase;
 

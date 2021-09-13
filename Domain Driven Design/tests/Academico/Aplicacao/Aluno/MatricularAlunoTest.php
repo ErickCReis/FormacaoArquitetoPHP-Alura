@@ -4,8 +4,8 @@ namespace Alura\Arquitetura\Testes\Academico\Aplicacao\Aluno;
 
 use Alura\Arquitetura\Academico\Aplicacao\Aluno\MatricularAluno\MatricularAluno;
 use Alura\Arquitetura\Academico\Aplicacao\Aluno\MatricularAluno\MatricularAlunoDto;
-use Alura\Arquitetura\Academico\Dominio\Cpf;
-use Alura\Arquitetura\Academico\Dominio\PublicadorDeEvento;
+use Alura\Arquitetura\Shared\Dominio\Cpf;
+use Alura\Arquitetura\Shared\Dominio\Evento\PublicadorDeEvento;
 use Alura\Arquitetura\Academico\Infra\Aluno\RepositorioAlunoEmMemoria;
 use PHPUnit\Framework\TestCase;
 
