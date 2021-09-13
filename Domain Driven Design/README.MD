@@ -22,6 +22,7 @@ Vale ressaltar que o termo _Domain Driven Design_ significa literalmente modelar
 - Vimos que diversos conceitos de DDD já foram aprendidos no curso de Arquitetura;
 - Conhecemos o termo Linguagem Ubíqua que consiste em ter uma linguagem onipresente entre a equipe de desenvolvimento e a equipe de negócios.
 
+
 ### Aula 2: Aggregates
 
 - Conhecemos o conceito de **Aggregates**;
@@ -32,3 +33,10 @@ Vale ressaltar que o termo _Domain Driven Design_ significa literalmente modelar
 
 
 - _[Aggregate](https://martinfowler.com/bliki/DDD_Aggregate.html)_
+
+
+### Aula 3: Evento de domínio
+
+- Definimos o que é um evento;
+- Entendemos o que é um evento de domínio;
+- Aprendemos a implementar, emitir e reagir a um evento de domínio;
