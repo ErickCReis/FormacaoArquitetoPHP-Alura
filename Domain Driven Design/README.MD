@@ -61,3 +61,17 @@ Vale ressaltar que o termo _Domain Driven Design_ significa literalmente modelar
 
 
 - _[Shared Kernel](http://www.fabriciorissetto.com/blog/ddd-bounded-context/)_
+
+
+### Aula 6: Camada anticorrupção
+
+- Conversamos sobre o que é um sistema distribuído;
+- Vimos que através de contextos delimitados podemos distribuir sistemas realmente complexos;
+- No caso de sistemas distribuídos, falamos que há a necessidade de uma camada anti-corrupção;
+- Vimos algumas referências para nos aprofundar no assunto de DDD.
+
+### Referências
+
+- O livro que originou o termo DDD: Domain-Driven Design: [Tackling Complexity in the Heart of Software](https://www.amazon.com.br/dp/B00794TAUG/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
+- Uma releitura com uma linguagem um pouco mais palatável:  [Implementing Domain-Driven Design](https://www.amazon.com.br/Implementing-Domain-Driven-Design-English-Vaughn-ebook/dp/B00BCLEBN8/ref=reads_cwrtbar_2/136-2192446-3149439?_encoding=UTF8&pd_rd_i=B00BCLEBN8&pd_rd_r=1b2f1be2-3f0c-40e3-929b-21cd85850dfc&pd_rd_w=mbTue&pd_rd_wg=N9ZBi&pf_rd_p=fcd5cfce-70d2-4fb2-84e0-1100e88dded2&pf_rd_r=A5H4RARTFWM0QB02JWYS&psc=1&refRID=A5H4RARTFWM0QB02JWYS)
+- Um livro prático sobre implementação em PHP de conceitos do DDD: [Domain-Driven Design in PHP](https://leanpub.com/ddd-in-php) 
